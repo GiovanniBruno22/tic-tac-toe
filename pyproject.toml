@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tic-tac-toe_Giovanni_Samuel_Bruno"
+version = "1.0.0"
+authors = [
+  { name="Giovanni Samuel Bruno", email="giovannibruno.catania@gmail.com" },
+]
+description = "A tic-tac-toe made in python 3 using QtGui5."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/GiovanniBruno22/tic-tac-toe"
+"Bug Tracker" = "https://github.com/GiovanniBruno22/tic-tac-toe/issues"
